@@ -6,7 +6,7 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./footer.component.scss']
 })
 export class FooterComponent implements OnInit {
-  estYear: string = 2018;
+  estYear: string = "2018";
   curYear: string;
   @Input() author: string;
   constructor() { }
@@ -15,8 +15,8 @@ export class FooterComponent implements OnInit {
     this.setCurYear();
   }
 
-  private getCurrentYear() {
-    return (new Date()).getFullYear();
+  private getCurrentYear():string {
+    return String((new Date()).getFullYear());
   }
   private setCurYear() {
     this.curYear = this.getCurrentYear();
