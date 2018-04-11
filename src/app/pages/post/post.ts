@@ -7,7 +7,8 @@ export interface Post {
 }
 
 export interface PostMetadata {
-  postDate: string; // Posting date
-  published: boolean; // Whether post is public or not
-  subsOnly: boolean; // Whether or not the post is available to everyone or a subset of users
+  postDate: string; // Upload date
+  publishDate: string; // Date article was published
+  published: boolean; // Whether article is published or not
+  subsOnly: boolean; // Whether or not the post is available to the public
 }
