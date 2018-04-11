@@ -104,12 +104,6 @@
   optionalDependencies:
     node-sass "^4.7.2"
 
-"@angular/common@^4.2.4":
-  version "4.4.6"
-  resolved "https://registry.yarnpkg.com/@angular/common/-/common-4.4.6.tgz#4b81420724e0828a0e839b95a55eb1a7e83918f2"
-  dependencies:
-    tslib "^1.7.1"
-
 "@angular/common@^5.2.0":
   version "5.2.9"
   resolved "https://registry.yarnpkg.com/@angular/common/-/common-5.2.9.tgz#beb25d4434498abae56bd8dc2c01ade3f6c45e81"
@@ -128,12 +122,6 @@
 "@angular/compiler@^5.2.0":
   version "5.2.9"
   resolved "https://registry.yarnpkg.com/@angular/compiler/-/compiler-5.2.9.tgz#1d03bc1e8b38c259bc58114d691c2140d244f8f5"
-  dependencies:
-    tslib "^1.7.1"
-
-"@angular/core@^4.2.4":
-  version "4.4.6"
-  resolved "https://registry.yarnpkg.com/@angular/core/-/core-4.4.6.tgz#13031fd10dcfe438875419b38f21120958bc2354"
   dependencies:
     tslib "^1.7.1"
 
@@ -188,16 +176,6 @@
   resolved "https://registry.yarnpkg.com/@angular/router/-/router-5.2.9.tgz#0369df6e60c6da3a5842c6eb35e3958d4ffe727e"
   dependencies:
     tslib "^1.7.1"
-
-"@chevtek/angular-spinners@^5.1.2":
-  version "5.1.2"
-  resolved "https://registry.yarnpkg.com/@chevtek/angular-spinners/-/angular-spinners-5.1.2.tgz#011fc14e666965ceb86dabb66c86435450517433"
-  dependencies:
-    "@angular/common" "^4.2.4"
-    "@angular/core" "^4.2.4"
-    reflect-metadata "^0.1.10"
-    rxjs "^5.4.1"
-    zone.js "^0.8.12"
 
 "@firebase/app-types@0.1.2":
   version "0.1.2"
@@ -5525,7 +5503,7 @@ redis@^2.7.1:
     redis-commands "^1.2.0"
     redis-parser "^2.6.0"
 
-reflect-metadata@^0.1.10, reflect-metadata@^0.1.2:
+reflect-metadata@^0.1.2:
   version "0.1.12"
   resolved "https://registry.yarnpkg.com/reflect-metadata/-/reflect-metadata-0.1.12.tgz#311bf0c6b63cd782f228a81abe146a2bfa9c56f2"
 
@@ -5813,12 +5791,6 @@ run-queue@^1.0.0, run-queue@^1.0.3:
   resolved "https://registry.yarnpkg.com/run-queue/-/run-queue-1.0.3.tgz#e848396f057d223f24386924618e25694161ec47"
   dependencies:
     aproba "^1.1.1"
-
-rxjs@^5.4.1:
-  version "5.5.9"
-  resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-5.5.9.tgz#12a0487794b00f5eb370fec2751bd973a89886fb"
-  dependencies:
-    symbol-observable "1.0.1"
 
 rxjs@^5.5.6:
   version "5.5.8"
@@ -7433,6 +7405,6 @@ yn@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/yn/-/yn-2.0.0.tgz#e5adabc8acf408f6385fc76495684c88e6af689a"
 
-zone.js@^0.8.12, zone.js@^0.8.19:
+zone.js@^0.8.19:
   version "0.8.26"
   resolved "https://registry.yarnpkg.com/zone.js/-/zone.js-0.8.26.tgz#7bdd72f7668c5a7ad6b118148b4ea39c59d08d2d"
