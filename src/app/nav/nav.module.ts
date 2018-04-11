@@ -1,19 +1,26 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { MaterialAppModule } from '@app/ngmat/ngmat.module';
+import { FlexLayoutModule } from '@angular/flex-layout';
+
 import { TopnavComponent } from './topnav/topnav.component';
-import { SidenavComponent } from './sidenav/sidenav.component';
+import { FooterComponent } from './footer/footer.component';
+import { SidenavService } from './sidenav/sidenav.service';
 
 @NgModule({
   imports: [
-    CommonModule
+    CommonModule,
+    MaterialAppModule,
+    FlexLayoutModule
   ],
   exports: [
     TopnavComponent,
-    SidenavComponent
+    FooterComponent
   ],
   declarations: [
     TopnavComponent,
-    SidenavComponent
-  ]
+    FooterComponent
+  ],
+  providers: [SidenavService]
 })
 export class NavModule { }
