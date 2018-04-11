@@ -1,7 +1,11 @@
 {
   "name": "bit-blog",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "license": "MIT",
+  "description": "Angular Blogging using Firebase",
+  "main": "main.ts",
+  "repository": "git@github.com:bitshiftedDevelopment/BitBlog.git",
+  "author": "Mick Evans <bitshifted.development@gmail.com>",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
