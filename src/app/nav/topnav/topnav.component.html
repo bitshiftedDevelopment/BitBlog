@@ -1,5 +1,8 @@
 <mat-toolbar fxFlex="row">
-  <mat-icon fxFlex fxAlign="start center">menu</mat-icon>
+  <div fxFlex fxAlign="start center" class="menuSection">
+    <mat-icon>menu</mat-icon>
+    <a routerLink="/blog">Blog</a>
+  </div>
   <h2 fxFlex fxAlign="center center" class="brandName">&nbsp;{{title}}</h2>
   <img src="favicon.ico" alt="Brand Logo" fxAlign="end center" class="brandLogo">
 </mat-toolbar>
